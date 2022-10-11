@@ -227,17 +227,40 @@ body{
 
 /* About */
 
+
+
 .about-list {
     display: flex;  
 }
 
 .about-list .item {
     width: 270px;
+    
 }
 
 .about-list .item + .item {
     margin-left: 30px;
+    
 }
+
+.about-list .item::before {
+    display: block;
+    content: "";
+    background-image: url(../images/antenna.svg);
+    
+    
+        height: 120px;
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+            background-position: center;
+            background-color: cyan;
+        
+   
+}
+
+
+
 
 .about-list .title {
     margin-bottom: 10px;
