@@ -105,9 +105,7 @@ body{
     display: flex;
     margin-left: 93px;
     display: flex;
-        
-        column-gap: 50px;
-        
+    column-gap: 50px;
 }
 
 
@@ -138,7 +136,7 @@ body{
 .site-contact-head {
     display: flex;
     margin-left: auto;
-    display: flex;
+    
         
         column-gap: 50px;
         
@@ -162,6 +160,13 @@ body{
 .site-contact-head .link:focus {
     color: var(--accent-color);
 }
+
+
+
+
+
+
+
 
 /* board */
 .board {
@@ -230,7 +235,16 @@ body{
 
 /* About */
 
-
+.about-icon {
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+        
+}
 
 .about-list {
     display: flex;
@@ -240,36 +254,6 @@ body{
 .about-list .item {
     width: 270px;
     
-}
-
-
-
-.about-list .item::before {
-    display: block;
-    content: "";
-    height: 120px;
-    width: 270px;
-    background-size: 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
-    margin-bottom: 30px;
-}
-
-.icon-antenna::before {
-    background-image: url(../images/antenna.svg);
-}
-
-.icon-clock::before {
-    background-image: url(../images/clock.svg);
-}
-
-.icon-diagram::before {
-    background-image: url(../images/diagram.svg);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/astronaut.svg);
 }
 
 .about-list .title {
@@ -323,9 +307,29 @@ body{
 
 .team-description {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 28px;
     text-align: center;
 }
+
+
+.team-icon {
+    
+    
+    display: flex;
+   
+    column-gap: 32px;
+    margin-left: 44px;
+    margin-bottom: 42px;
+
+}
+
+.team-list .item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+
 
 /*Footer*/
 
@@ -424,6 +428,12 @@ body{
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+}
+
+.portfolio-list .link:hover
+{
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
