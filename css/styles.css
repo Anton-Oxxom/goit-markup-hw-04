@@ -445,6 +445,16 @@ body{
     color: var(--accent-color);
 }
 
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -453,6 +463,47 @@ body{
 
 .adress {
     font-style: normal;
+}
+
+.footer-social-list {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 70px;
+    
+
+}
+
+.footer-social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+    background-color: var(--accent-color);
+
+}
+
+.footer-social-list-icon {
+    fill: #AFB1B8;
+}
+
+.footer-social-list-link:hover .footer-social-list-icon,
+.footer-social-list-link:focus .footer-social-list-icon {
+    fill: var(--primary-white-color);
+
+}
+
+.footer-main-nav {
+    display: flex;
+    
 }
 
 /* Portfolio */
