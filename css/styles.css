@@ -379,7 +379,8 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-    border: 1px solid #AFB1B8;
+    border: 1px solid;
+    border-color: #AFB1B8;
     border-radius: 4px;
   
 
@@ -389,13 +390,17 @@ body{
 .clients-item {
     width: 170px;
     height: 92px;
+    
 }
 
-/*.clients-list-link:hover,
+.clients-list-link:hover,
 .clients-list-link:focus {
-    background-color: var(--accent-color);
+    
+    border-color: var(--accent-color);
+    
 
 }
+
 
 .clients-list-icon {
     fill: #AFB1B8;
@@ -403,10 +408,11 @@ body{
 
 .clients-list-link:hover .clients-list-icon,
 .clients-list-link:focus .clients-list-icon {
-    fill: var(--primary-white-color);
+    fill: var(--accent-color);
 
 }
-*/
+
+
 
 /*Footer*/
 
