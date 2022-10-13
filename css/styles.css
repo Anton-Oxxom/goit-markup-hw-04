@@ -401,8 +401,8 @@ body{
     fill: #AFB1B8;
 }
 
-.clients-list-link:hover .social-list-icon,
-.clients-list-link:focus .social-list-icon {
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
     fill: var(--primary-white-color);
 
 }
