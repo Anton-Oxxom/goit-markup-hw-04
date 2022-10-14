@@ -108,8 +108,6 @@ body{
     column-gap: 50px;
 }
 
-
-
 .site-nav .link{
     display: block;
     padding-top: 32px;
@@ -135,14 +133,9 @@ body{
 /* Site contact*/
 .site-contact-head {
     display: flex;
-    margin-left: auto;
-    
-        
-        column-gap: 50px;
-        
+    margin-left: auto;      
+    column-gap: 50px;  
 }
-
-
 
 .site-contact-head .link {
     display: flex;
@@ -159,7 +152,7 @@ body{
 
 .contact-icon {
     fill: currentColor;
-    }
+}
        
 .site-contact-head .link:hover,
 .site-contact-head .link:focus {
@@ -172,10 +165,6 @@ body{
     column-gap: 10px;
     align-items: center;
 }
-
-
-
-
 
 /* board */
 .board {
@@ -195,11 +184,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 .board-title {
-    margin-top: 0px;
+        padding-left: 200px;
+            padding-right: 200px;
+    
     margin-bottom: 30px;
     color: var(--primary-white-color);
     font-weight: 900;
@@ -226,7 +216,6 @@ body{
 }
 
 /* Section */
-
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -243,7 +232,6 @@ body{
 }
 
 /* About */
-
 .about-icon {
     height: 120px;
     background-color: #F5F4FA;
@@ -251,8 +239,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
-        
+    margin-bottom: 30px;     
 }
 
 .about-list {
@@ -261,8 +248,7 @@ body{
 }
 
 .about-list .item {
-    width: 270px;
-    
+    width: 270px;    
 }
 
 .about-list .title {
@@ -288,7 +274,6 @@ body{
     display: flex;
     column-gap: 30px;
 }
-
 
 /* Team */
 .team {
@@ -319,14 +304,12 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    
 }
 
 .social-list {
     display: flex;
     column-gap: 10px;
     justify-content: center;
-
 }
 
 .social-list-link {
@@ -335,15 +318,12 @@ body{
     align-items: center;
     width: 44px;
     height: 44px;
-    border-radius: 50%;
-    
-    
+    border-radius: 50%;   
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: var(--accent-color);
-   
+    background-color: var(--accent-color);  
 }
 
 .social-list-icon {
@@ -353,7 +333,6 @@ body{
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
     fill: var(--primary-white-color); 
-
 }
 
 
@@ -363,14 +342,10 @@ body{
     border-radius: 0px 0px 4px 4px;
 }
 
-
-
-
 .clients-list {
     display: flex;
     column-gap: 30px;
     justify-content: center;
-
 }
 
 .clients-list-link {
@@ -382,23 +357,16 @@ body{
     border: 1px solid;
     border-color: #AFB1B8;
     border-radius: 4px;
-  
-
-
 }
 
 .clients-item {
     width: 170px;
-    height: 92px;
-    
+    height: 92px; 
 }
 
 .clients-list-link:hover,
 .clients-list-link:focus {
-    
     border-color: var(--accent-color);
-    
-
 }
 
 
@@ -409,16 +377,11 @@ body{
 .clients-list-link:hover .clients-list-icon,
 .clients-list-link:focus .clients-list-icon {
     fill: var(--accent-color);
-
 }
 
-
-
 /*Footer*/
-
-
-
-.footer-nav .item + .item {
+.footer-nav .item {
+    display: flex;
     margin-top: 9px;
 }
  
@@ -446,12 +409,12 @@ body{
 }
 
 .footer-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-left: 70px;
     margin-bottom: 20px;
 }
 
@@ -469,8 +432,6 @@ body{
     display: flex;
     column-gap: 10px;
     margin-left: 70px;
-    
-
 }
 
 .footer-social-list-link {
@@ -481,8 +442,6 @@ body{
     height: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-
-
 }
 
 .footer-social-list-link:hover,
@@ -498,12 +457,10 @@ body{
 .footer-social-list-link:hover .footer-social-list-icon,
 .footer-social-list-link:focus .footer-social-list-icon {
     fill: var(--primary-white-color);
-
 }
 
 .footer-main-nav {
-    display: flex;
-    
+    display: flex;  
 }
 
 /* Portfolio */
@@ -513,8 +470,6 @@ body{
     column-gap: 8px;
     margin-bottom: 34px;
 }
-
-
 
 .button-portfolio .link {
     border: none; 
@@ -565,9 +520,7 @@ body{
     border-bottom: 1px solid #EEEEEE;
 }
 
-.portfolio-list .link:hover
-{
-
+.portfolio-list .link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
