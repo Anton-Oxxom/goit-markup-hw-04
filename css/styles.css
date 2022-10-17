@@ -285,6 +285,10 @@ body{
     column-gap: 30px;   
 }
 
+.team-list .item {
+    background-color: var(--primary-white-color);
+}
+
 
 .team-list .title {
     color: var(--title-text-color);
@@ -414,7 +418,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 70px;
+    
     margin-bottom: 20px;
 }
 
@@ -423,15 +427,21 @@ body{
     padding-bottom: 60px;
     background-color: #2F303A;
 }
+.footer-adress {
+    margin-right: 70px;
+}
 
 .adress {
     font-style: normal;
 }
 
+
+
 .footer-social-list {
     display: flex;
     column-gap: 10px;
-    margin-left: 70px;
+    
+    
 }
 
 .footer-social-list-link {
@@ -451,13 +461,9 @@ body{
 }
 
 .footer-social-list-icon {
-    fill: #AFB1B8;
-}
-
-.footer-social-list-link:hover .footer-social-list-icon,
-.footer-social-list-link:focus .footer-social-list-icon {
     fill: var(--primary-white-color);
 }
+
 
 .footer-main-nav {
     display: flex;  
@@ -520,9 +526,12 @@ body{
     border-bottom: 1px solid #EEEEEE;
 }
 
-.portfolio-list .link:hover {
+.portfolio-list-link:hover,
+.portfolio-list-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+
 
 
 /*колір основного текста 757575*/
