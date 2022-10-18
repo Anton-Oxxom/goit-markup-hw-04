@@ -506,6 +506,7 @@ body{
 .portfolio-list .text {
     line-height: 1.87;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 
@@ -530,7 +531,7 @@ body{
 .portfolio-list-link {
     display: block;
     text-decoration: none;
-    color: var(--primary-text-color);
+    
     
 }
 
